@@ -2,7 +2,7 @@ version: '3'
 services:
   smartmeter:
     container_name: smartmeter
-    image: smartmeter
+    image: m4dmin/smartmeter
     devices:
      - /dev/ttyUSB0:/dev/ttyUSB0
     volumes:
