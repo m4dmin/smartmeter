@@ -1,5 +1,3 @@
-# smartmeter
-
 Smartmeter
 =========
 
