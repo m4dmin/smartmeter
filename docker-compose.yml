@@ -1,0 +1,14 @@
+version: '3'
+services:
+  smartmeter:
+    container_name: smartmeter
+    image: smartmeter
+    devices:
+     - /dev/ttyUSB0:/dev/ttyUSB0
+    volumes:
+     - /etc/localtime:/etc/localtime:ro
+     - /etc/timezone:/etc/timezone:ro
+     - /smartmeter/log:/smartmeter/log
+     - /smartmeter/conf:/smartmeter/conf
+    restart: unless-stopped
+    network_mode: host
