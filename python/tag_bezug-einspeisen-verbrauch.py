@@ -443,6 +443,7 @@ point = {
         }
     }
 points.append(point)
+logger.debug(points)
 
 ##### influxDB section
 try:
