@@ -198,7 +198,7 @@ try:
                 },
                 #   "time": timestamp,   # Wenn nicht genutzt, wird der aktuelle Timestamp aus influxDB genutzt
                 "fields": {
-                    "kWh": sz_responseStripped
+                    "kWh": str(float(sz_responseStripped))
                     }
                 }
             points.append(point)
@@ -217,7 +217,7 @@ try:
                 },
                 #   "time": timestamp,   # Wenn nicht genutzt, wird der aktuelle Timestamp aus influxDB genutzt
                 "fields": {
-                    "kWh": sz_responseStripped
+                    "kWh": str(float(sz_responseStripped))
                     }
                 }
             points.append(point)
@@ -236,7 +236,7 @@ try:
                 },
                 #   "time": timestamp,   # Wenn nicht genutzt, wird der aktuelle Timestamp aus influxDB genutzt
                 "fields": {
-                    "kWh": sz_responseStripped
+                    "kWh": str(float(sz_responseStripped))
                     }
                 }
             points.append(point)
@@ -256,7 +256,7 @@ try:
                 },
                 #   "time": timestamp,   # Wenn nicht genutzt, wird der aktuelle Timestamp aus influxDB genutzt
                 "fields": {
-                    "kWh": sz_responseStripped
+                    "kWh": str(float(sz_responseStripped))
                     }
                 }
             points.append(point)
@@ -275,7 +275,7 @@ try:
                 },
                 #   "time": timestamp,   # Wenn nicht genutzt, wird der aktuelle Timestamp aus influxDB genutzt
                 "fields": {
-                    "kWh": sz_responseStripped
+                    "kWh": str(float(sz_responseStripped))
                     }
                 }
             points.append(point)
@@ -294,7 +294,7 @@ try:
                 },
                 #   "time": timestamp,   # Wenn nicht genutzt, wird der aktuelle Timestamp aus influxDB genutzt
                 "fields": {
-                    "kWh": sz_responseStripped
+                    "kWh": str(float(sz_responseStripped))
                     }
                 }
             points.append(point)
