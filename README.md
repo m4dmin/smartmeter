@@ -81,3 +81,20 @@ tag_source = tag
 [backup]
 dsn = /abc/backup/backupfile.xlsx
 ```
+
+Measurements
+-----
+* sz_leistung_aktuell *in W* 
+* pv_leistung_aktuell *in W* 
+* verbrauch_aktuell *in W*
+* sz_tariflos_1.8.0 *in kWh*
+* sz_hochtarif_1.8.1 *in kWh*
+* sz_niedertarif_1.8.2 *in kWh*
+* sz_einspeisen_tariflos_2.8.0 *in kWh*
+* sz_einspeisen_hochtarif_2.8.1 *in kWh*
+* sz_einspeisen_niedertarif_2.8.2 *in kWh*
+* pv_ertrag_tag *in kWh*
+* einspiesen_tag *in kWh*
+* bezug_tag *in kWh*
+* pv_eigenvergrauch_tag *in kWh*
+* verbrauch_tag *in kWh*
